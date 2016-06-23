@@ -1,0 +1,108 @@
+body, html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-color: #ecf0f1;
+}
+
+header {
+  display: block;
+  background-color: #34495e;
+  height: 40px;
+  padding: 0 15px;
+}
+
+header h1 {
+  color: #ecf0f1;
+  font-size: 30px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+#icons {
+  display: inline-block;
+  float: right;
+}
+
+#icons i {
+  margin-left: 10px;
+}
+
+#icons a {
+  color: #fff;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+#center {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 5%;
+    width: 800px;
+    height: 600px;
+}
+
+#full #center {
+  margin-top: 0;
+  width: 100%;
+  height: calc(100vh - 40px);
+}
+
+#map {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#form {
+  z-index: 1;
+  margin-top: 8px;
+  position: absolute;
+  top: 0;
+  left: 110px;
+}
+
+.loca {
+  display: inline-block;
+  color: red;
+  font-size: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 27px;
+  width: 27px;
+}
+
+.loca a {
+  vertical-align: middle;
+  margin: 0 5px;
+  color: #95a5a6;
+}
+
+input[type=text] {
+  vertical-align: center;
+  display: inline-block;
+  height: 18px;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input[type=submit] {
+  display: inline-block;
+  height: 30px;
+  padding: 5px 12px;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}

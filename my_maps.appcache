@@ -1,0 +1,9 @@
+CACHE MANIFEST
+index.html
+assets/css/style.css
+assets/css/reset.css
+assets/js/script.js
+https://maps.googleapis.com/maps/api/js?key=AIzaSyAddS_-pqhWBUnAxES2zxpddmv091yPhso&libraries=places
+https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
+NETWORK:
+*

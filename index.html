@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html  manifest="my_maps.appcache">
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Waypoints in directions</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Maps</h1>
+      <div id="icons">
+        <a href="#" id="location"><i class="fa fa-compass"></i></a>
+        <a href="#" id="resize"><i class="fa fa-expand"></i></a>
+        <a href="#" id="full-screen"><i class="fa fa-arrows-alt"></i></a>
+      </div>
+    </header>
+    <div id="center">
+      <form id="form" action="#" method="post">
+        <div class="loca"><a href="#" id="loca-start"><i class="fa fa-compass"></i></a></div>
+        <input id="start" type="text" name="start" placeholder="Depart">
+        <div class="loca"><a href="#" id="loca-end"><i class="fa fa-compass"></i></a></div>
+        <input id="end" type="text" name="end" placeholder="Arriver">
+        <input type="submit" value="Recherche">
+      </form>
+      <div id="map"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAddS_-pqhWBUnAxES2zxpddmv091yPhso&libraries=places"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
